@@ -99,7 +99,7 @@ while True:
     if ctemp > 4095 :
             ctemp -= 8192
     ctemp = ctemp * 0.0625
-    print "Temperature in Celsius is    : %.2f C" %ctemp
+    print ("Temperature in Celsius is    : %.2f C" %ctemp)
     # verif validation temp
     if (ctemp > 8):
         v = True
