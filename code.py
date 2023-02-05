@@ -3,6 +3,7 @@ import time
 import smbus
 import datetime
 
+
 # Get I2C bus
 bus = smbus.SMBus(1)
 time.sleep(0.5)
@@ -10,6 +11,7 @@ time.sleep(0.5)
 v = False #test temperature boolean
 
 #Pin setup 
+ty = 12
 btnOnPompe = 16
 btnStopPompe = 10
 btnStopLumiere = 18
